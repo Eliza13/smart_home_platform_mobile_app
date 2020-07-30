@@ -1,0 +1,15 @@
+rootProject.name = 'mobile_app'
+include ':react-native-onesignal'
+project(':react-native-onesignal').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-onesignal/android')
+include ':react-native-push-notification'
+project(':react-native-push-notification').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-push-notification/android')
+include ':react-native-splash-screen'
+project(':react-native-splash-screen').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-splash-screen/android')
+include ':react-native-toast-native'
+project(':react-native-toast-native').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-toast-native/android')
+include ':react-native-bluetooth-listener'
+project(':react-native-bluetooth-listener').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bluetooth-listener/android')
+include ':react-native-beacons-manager'
+project(':react-native-beacons-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-beacons-manager/android')
+
+include ':app'
